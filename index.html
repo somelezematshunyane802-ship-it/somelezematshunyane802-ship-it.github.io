@@ -1,0 +1,1953 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<meta name="author" content="Matshunyane Someleze">
+
+<meta name="robots" content="index, follow">
+
+<meta name="theme-color" content="#061426">
+
+<title>Matshunyane Someleze | Aspiring Airline Pilot</title>
+
+<meta name="description"
+content="Matshunyane Someleze — aspiring airline pilot, student and technology enthusiast from South Africa.">
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Matshunyane Someleze",
+  "jobTitle": "Aspiring Airline Pilot",
+  "description": "South African student and aspiring airline pilot with interests in aviation, technology and programming.",
+  "url": "YOUR-WEBSITE-URL"
+}
+</script>
+
+<style>
+
+/* =========================
+   RESET
+========================= */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: #f5f7fa;
+    color: #101827;
+    line-height: 1.6;
+}
+
+
+/* =========================
+   NAVIGATION
+========================= */
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+
+    height: 70px;
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    padding: 0 6%;
+
+    background: #061426;
+
+    border-bottom: 1px solid #24364c;
+}
+
+.logo {
+    width: 42px;
+    height: 42px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background: white;
+    color: #061426;
+
+    font-weight: 900;
+}
+
+nav {
+    display: flex;
+    gap: 20px;
+}
+
+nav a {
+    color: white;
+
+    text-decoration: none;
+
+    font-size: 12px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: #79b9ff;
+}
+
+
+/* =========================
+   HERO
+========================= */
+
+.hero {
+    min-height: calc(100vh - 70px);
+
+    position: relative;
+
+    display: flex;
+    align-items: center;
+
+    padding: 80px 7%;
+
+    overflow: hidden;
+
+    color: white;
+
+    background:
+        radial-gradient(
+            circle at 85% 25%,
+            #164d7a,
+            transparent 35%
+        ),
+        linear-gradient(
+            135deg,
+            #020a14,
+            #082441,
+            #0c3558
+        );
+}
+
+.hero-content {
+    position: relative;
+    z-index: 2;
+
+    max-width: 900px;
+}
+
+.small-title {
+    color: #79b9ff;
+
+    font-size: 11px;
+
+    font-weight: 900;
+
+    letter-spacing: 4px;
+
+    margin-bottom: 25px;
+}
+
+.hero h1 {
+    font-size: clamp(55px, 12vw, 120px);
+
+    line-height: .88;
+
+    letter-spacing: -5px;
+
+    margin-bottom: 30px;
+}
+
+.hero h1 span {
+    display: block;
+
+    color: #bcdcff;
+
+    font-weight: 300;
+}
+
+.intro {
+    font-size: 18px;
+
+    font-weight: bold;
+
+    margin-bottom: 12px;
+}
+
+.description {
+    max-width: 620px;
+
+    color: #b4c5d7;
+
+    font-size: 16px;
+
+    margin-bottom: 30px;
+}
+
+.hero-meta {
+    display: flex;
+    gap: 45px;
+    margin-top: 55px;
+}
+
+.hero-meta div {
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+}
+
+.hero-meta strong {
+    color: white;
+    font-size: 20px;
+}
+
+.hero-meta span {
+    color: #7890aa;
+    font-size: 9px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.hero-plane {
+    position: absolute;
+    right: 10%;
+    top: 38%;
+    font-size: 110px;
+    opacity: 0.08;
+    transform: rotate(-12deg);
+}
+
+@media(max-width: 800px) {
+
+    .hero-meta {
+        gap: 25px;
+        margin-top: 40px;
+    }
+
+    .hero-plane {
+        right: 5%;
+        top: 15%;
+        font-size: 70px;
+    }
+
+}
+.buttons {
+    display: flex;
+
+    flex-wrap: wrap;
+
+    gap: 12px;
+}
+
+.button {
+    display: inline-block;
+
+    padding: 14px 21px;
+
+    border-radius: 6px;
+
+    font-size: 13px;
+
+    font-weight: bold;
+
+    text-decoration: none;
+}
+
+.primary {
+    background: white;
+    color: #061426;
+}
+
+.secondary {
+    color: white;
+
+    border: 1px solid #7890aa;
+}
+
+
+/* Decorative circles */
+
+.hero::before {
+    content: "";
+
+    position: absolute;
+
+    width: 550px;
+    height: 550px;
+
+    right: -250px;
+    top: -180px;
+
+    border: 1px solid rgba(255,255,255,.12);
+
+    border-radius: 50%;
+}
+
+.hero::after {
+    content: "";
+
+    position: absolute;
+
+    width: 750px;
+    height: 750px;
+
+    right: -350px;
+    top: -280px;
+
+    border: 1px solid rgba(255,255,255,.07);
+
+    border-radius: 50%;
+}
+
+
+/* =========================
+   GENERAL SECTIONS
+========================= */
+
+.section {
+    max-width: 1200px;
+
+    margin: auto;
+
+    padding: 100px 7%;
+}
+
+.section-number {
+    color: #3978b6;
+
+    font-size: 11px;
+
+    font-weight: 900;
+
+    letter-spacing: 3px;
+
+    margin-bottom: 15px;
+}
+
+.section h2 {
+    font-size: clamp(42px, 8vw, 76px);
+
+    line-height: .95;
+
+    letter-spacing: -4px;
+
+    margin-bottom: 35px;
+}
+
+.section-text {
+    max-width: 750px;
+
+    color: #596579;
+
+    font-size: 17px;
+
+    margin-bottom: 18px;
+}
+
+
+/* =========================
+   ABOUT
+========================= */
+
+.about-grid {
+    display: grid;
+
+    grid-template-columns: 1.4fr .8fr;
+
+    gap: 60px;
+
+    margin-top: 40px;
+}
+
+.about-card {
+    padding: 35px;
+
+    border-radius: 12px;
+
+    background: #061426;
+
+    color: white;
+}
+
+.about-card small {
+    color: #79b9ff;
+
+    font-weight: bold;
+
+    letter-spacing: 2px;
+}
+
+.about-card h3 {
+    font-size: 27px;
+
+    line-height: 1.1;
+
+    margin: 20px 0 10px;
+}
+
+.about-card p {
+    color: #aebfd2;
+}
+
+
+/* =========================
+   AVIATION
+========================= */
+
+.aviation {
+    max-width: none;
+
+    background: #061426;
+
+    color: white;
+}
+
+.aviation-inner {
+    max-width: 1060px;
+
+    margin: auto;
+}
+
+.aviation h2 {
+    color: white;
+}
+
+.aviation .section-text {
+    color: #aebfd2;
+}
+
+.stats {
+    display: grid;
+
+    grid-template-columns: repeat(4, 1fr);
+
+    margin-top: 55px;
+
+    border-top: 1px solid #30445b;
+    border-bottom: 1px solid #30445b;
+}
+
+.stat {
+    padding: 30px 15px;
+
+    border-right: 1px solid #30445b;
+}
+
+.stat:last-child {
+    border-right: none;
+}
+
+.stat strong {
+    display: block;
+
+    color: #79b9ff;
+
+    font-size: 25px;
+}
+
+.stat span {
+    color: #aebfd2;
+
+    font-size: 10px;
+
+    font-weight: bold;
+
+    letter-spacing: 2px;
+}
+
+
+/* =========================
+   ROADMAP
+========================= */
+
+.roadmap {
+    margin-top: 45px;
+
+    border-top: 1px solid #d7dee7;
+}
+
+.road {
+    display: grid;
+
+    grid-template-columns: 80px 1fr;
+
+    gap: 20px;
+
+    padding: 30px 0;
+
+    border-bottom: 1px solid #d7dee7;
+}
+
+.road-number {
+    color: #3978b6;
+
+    font-weight: bold;
+}
+
+.road small {
+    color: #3978b6;
+
+    font-size: 10px;
+
+    font-weight: bold;
+
+    letter-spacing: 2px;
+}
+
+.road h3 {
+    font-size: 25px;
+
+    margin: 7px 0;
+}
+
+.road p {
+    max-width: 650px;
+
+    color: #667085;
+}
+
+
+/* =========================
+   PROJECTS
+========================= */
+
+.projects {
+    background: #eef3f8;
+
+    max-width: none;
+}
+
+.projects-inner {
+    max-width: 1060px;
+
+    margin: auto;
+}
+
+.cards {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    gap: 20px;
+
+    margin-top: 45px;
+}
+
+.card {
+    min-height: 260px;
+
+    padding: 30px;
+
+    background: white;
+
+    border: 1px solid #dfe5ec;
+
+    border-radius: 12px;
+
+    transition: .3s;
+}
+
+.card:hover {
+    transform: translateY(-7px);
+
+    box-shadow: 0 20px 40px rgba(0,0,0,.1);
+}
+
+.card-number {
+    color: #3978b6;
+
+    font-weight: bold;
+}
+
+.card h3 {
+    font-size: 23px;
+
+    margin: 50px 0 10px;
+}
+
+.card p {
+    color: #667085;
+}
+
+
+/* =========================
+   GOALS
+========================= */
+
+.goals {
+    max-width: none;
+
+    background: #061426;
+
+    color: white;
+}
+
+.goals-inner {
+    max-width: 1060px;
+
+    margin: auto;
+}
+
+.goals h2 {
+    color: white;
+}
+
+.goal-list {
+    margin-top: 45px;
+
+    border-top: 1px solid #30445b;
+}
+
+.goal {
+    display: grid;
+
+    grid-template-columns: 70px 1fr;
+
+    gap: 20px;
+
+    padding: 22px 0;
+
+    border-bottom: 1px solid #30445b;
+}
+
+.goal strong {
+    color: #79b9ff;
+}
+
+.goal span {
+    color: #d2dce8;
+}
+
+
+/* =========================
+   FOOTER
+========================= */
+
+footer {
+    padding: 50px 7%;
+
+    text-align: center;
+
+    background: #020a14;
+
+    color: #8393a7;
+}
+
+.footer-logo {
+    width: 45px;
+    height: 45px;
+
+    margin: auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50%;
+
+    background: white;
+
+    color: #061426;
+
+    font-weight: bold;
+}
+
+footer h3 {
+    color: white;
+
+    margin-top: 15px;
+}
+
+footer p {
+    font-size: 13px;
+
+    margin: 5px 0 20px;
+}
+
+
+/* =========================
+   MOBILE
+========================= */
+
+@media(max-width: 800px) {
+
+    header {
+        padding: 0 5%;
+    }
+
+    nav {
+        gap: 9px;
+    }
+
+    nav a {
+        font-size: 9px;
+    }
+
+    .hero {
+        padding: 70px 6%;
+    }
+
+    .hero h1 {
+        font-size: 57px;
+
+        letter-spacing: -3px;
+    }
+
+    .about-grid {
+        grid-template-columns: 1fr;
+
+        gap: 30px;
+    }
+
+    .stats {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .stat:nth-child(2) {
+        border-right: none;
+    }
+
+    .cards {
+        grid-template-columns: 1fr;
+    }
+
+    .section {
+        padding: 75px 6%;
+    }
+
+    .aviation {
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+
+    .projects {
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+
+    .goals {
+        padding-left: 6%;
+        padding-right: 6%;
+    }
+
+}
+/* =========================
+   SCROLL ANIMATIONS
+========================= */
+
+.hidden {
+    opacity: 0;
+    transform: translateY(35px);
+    transition:
+        opacity 0.8s ease,
+        transform 0.8s ease;
+}
+
+.show {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+
+/* =========================
+   BUTTON ANIMATION
+========================= */
+
+.button {
+    transition:
+        transform 0.25s ease,
+        box-shadow 0.25s ease,
+        background 0.25s ease;
+}
+
+.button:hover {
+    transform: translateY(-4px);
+}
+
+
+/* =========================
+   CARD ANIMATION
+========================= */
+
+.card {
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-8px);
+}
+
+
+/* =========================
+   LOGO
+========================= */
+
+.logo,
+.footer-logo {
+    transition: transform 0.3s ease;
+}
+
+.logo:hover,
+.footer-logo:hover {
+    transform: rotate(8deg) scale(1.05);
+}
+
+/* =========================
+   ABOUT ENHANCEMENT
+========================= */
+
+.about-grid {
+    align-items: stretch;
+}
+
+.about-card {
+    position: relative;
+    overflow: hidden;
+}
+
+.about-card::after {
+    content: "MS";
+
+    position: absolute;
+
+    right: -20px;
+    bottom: -45px;
+
+    font-size: 150px;
+    font-weight: 900;
+
+    color: rgba(255,255,255,.035);
+
+    line-height: 1;
+}
+
+.about-card h3 {
+    font-size: 42px;
+    line-height: 1;
+    letter-spacing: -2px;
+}
+
+.about-card p {
+    position: relative;
+    z-index: 2;
+    margin-top: 20px;
+}
+/* =========================
+   AVIATION ENHANCEMENT
+========================= */
+
+.aviation-principles {
+    margin-top: 60px;
+
+    display: grid;
+
+    grid-template-columns: 1fr 1fr;
+
+    border-top: 1px solid #30445b;
+}
+
+.aviation-principle {
+    display: grid;
+
+    grid-template-columns: 55px 1fr;
+
+    gap: 20px;
+
+    padding: 30px 20px 30px 0;
+
+    border-bottom: 1px solid #30445b;
+}
+
+.aviation-principle:nth-child(odd) {
+    border-right: 1px solid #30445b;
+}
+
+.aviation-principle span {
+    color: #79b9ff;
+
+    font-size: 13px;
+
+    font-weight: bold;
+}
+
+.aviation-principle h3 {
+    color: white;
+
+    font-size: 24px;
+
+    margin-bottom: 7px;
+}
+
+.aviation-principle p {
+    max-width: 360px;
+
+    color: #aebfd2;
+
+    font-size: 14px;
+}
+
+@media(max-width: 800px) {
+
+    .aviation-principles {
+        grid-template-columns: 1fr;
+    }
+
+    .aviation-principle:nth-child(odd) {
+        border-right: none;
+    }
+
+    .aviation-principle {
+        grid-template-columns: 45px 1fr;
+    }
+
+}
+/* =========================
+   JOURNEY TIMELINE
+========================= */
+
+.journey-section {
+    position: relative;
+}
+
+.journey-section > .section-text {
+    margin-bottom: 50px;
+}
+
+.roadmap {
+    position: relative;
+
+    margin-top: 0;
+
+    border-top: 1px solid #d7dee7;
+}
+
+.road {
+    position: relative;
+
+    display: grid;
+
+    grid-template-columns: 90px 1fr;
+
+    gap: 30px;
+
+    padding: 35px 0;
+
+    border-bottom: 1px solid #d7dee7;
+}
+
+.road-number {
+    font-size: 14px;
+
+    font-weight: 900;
+
+    color: #3978b6;
+
+    padding-top: 4px;
+}
+
+.road-content {
+    position: relative;
+}
+
+.road small {
+    color: #3978b6;
+
+    font-size: 10px;
+
+    font-weight: 900;
+
+    letter-spacing: 2px;
+}
+
+.road h3 {
+    font-size: 30px;
+
+    margin: 8px 0 10px;
+
+    letter-spacing: -1px;
+}
+
+.road p {
+    max-width: 650px;
+
+    color: #667085;
+
+    font-size: 15px;
+}
+
+.road-status {
+    display: inline-block;
+
+    margin-top: 18px;
+
+    padding: 5px 10px;
+
+    border: 1px solid #cbd5e1;
+
+    border-radius: 3px;
+
+    color: #3978b6;
+
+    font-size: 9px;
+
+    font-weight: 900;
+
+    letter-spacing: 1.5px;
+}
+
+.road:hover {
+    background: #f8fafc;
+}
+
+.road:hover .road-number {
+    transform: translateX(5px);
+}
+
+.road-number {
+    transition: transform 0.25s ease;
+}
+
+
+/* MOBILE */
+
+@media(max-width: 800px) {
+
+    .road {
+        grid-template-columns: 50px 1fr;
+
+        gap: 15px;
+
+        padding: 28px 0;
+    }
+
+    .road h3 {
+        font-size: 24px;
+    }
+
+    .road p {
+        font-size: 14px;
+    }
+
+}
+/* =========================
+   PROJECTS ENHANCEMENT
+========================= */
+
+.projects .section-text {
+    max-width: 650px;
+}
+
+.cards {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 18px;
+}
+
+.card {
+    min-height: 300px;
+
+    display: flex;
+    flex-direction: column;
+
+    padding: 32px;
+
+    position: relative;
+    overflow: hidden;
+}
+
+.card-top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card-number {
+    font-size: 13px;
+}
+
+.card-type {
+    color: #8a96a6;
+
+    font-size: 9px;
+    font-weight: 900;
+
+    letter-spacing: 2px;
+}
+
+.card h3 {
+    font-size: 30px;
+
+    margin: 55px 0 12px;
+
+    letter-spacing: -1px;
+}
+
+.card p {
+    max-width: 430px;
+
+    color: #667085;
+
+    font-size: 14px;
+}
+
+.card-footer {
+    margin-top: auto;
+    padding-top: 25px;
+
+    color: #3978b6;
+
+    font-size: 9px;
+    font-weight: 900;
+
+    letter-spacing: 2px;
+}
+
+.card::after {
+    content: "";
+
+    position: absolute;
+
+    width: 170px;
+    height: 170px;
+
+    right: -80px;
+    bottom: -80px;
+
+    border: 1px solid #dce4ec;
+
+    border-radius: 50%;
+}
+
+@media(max-width: 800px) {
+
+    .cards {
+        grid-template-columns: 1fr;
+    }
+
+    .card {
+        min-height: 270px;
+    }
+
+}
+/* =========================
+   CONTACT
+========================= */
+
+.contact {
+    padding: 110px 7%;
+
+    background: #f5f7fa;
+}
+
+.contact-inner {
+    max-width: 1060px;
+
+    margin: auto;
+}
+
+.contact h2 {
+    font-size: clamp(50px, 9vw, 90px);
+
+    line-height: .9;
+
+    letter-spacing: -4px;
+
+    margin-bottom: 25px;
+}
+
+.contact-inner > p:not(.section-number) {
+    max-width: 600px;
+
+    color: #667085;
+
+    font-size: 16px;
+
+    margin-bottom: 50px;
+}
+
+.contact-box {
+    display: grid;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    border-top: 1px solid #d7dee7;
+    border-bottom: 1px solid #d7dee7;
+}
+
+.contact-box div {
+    padding: 30px 20px 30px 0;
+
+    border-right: 1px solid #d7dee7;
+}
+
+.contact-box div:not(:first-child) {
+    padding-left: 25px;
+}
+
+.contact-box div:last-child {
+    border-right: none;
+}
+
+.contact-box span {
+    display: block;
+
+    color: #3978b6;
+
+    font-size: 9px;
+
+    font-weight: 900;
+
+    letter-spacing: 2px;
+
+    margin-bottom: 10px;
+}
+
+.contact-box strong {
+    display: block;
+
+    color: #101827;
+
+    font-size: 14px;
+
+    word-break: break-word;
+}
+
+
+/* MOBILE */
+
+@media(max-width: 800px) {
+
+    .contact {
+        padding: 75px 6%;
+    }
+
+    .contact-box {
+        grid-template-columns: 1fr;
+    }
+
+    .contact-box div,
+    .contact-box div:not(:first-child) {
+        padding: 25px 0;
+
+        border-right: none;
+
+        border-bottom: 1px solid #d7dee7;
+    }
+
+    .contact-box div:last-child {
+        border-bottom: none;
+    }
+
+}
+</style>
+
+</head>
+
+
+<body>
+
+
+<header>
+
+    <a href="#home" class="logo">
+        MS
+    </a>
+
+    <nav>
+        <a href="#about">About</a>
+        <a href="#aviation">Aviation</a>
+        <a href="#journey">Journey</a>
+        <a href="#projects">Projects</a>
+        <a href="#goals">Goals</a>
+        <a href="#contact">Contact</a>
+    </nav>
+
+</header>
+
+
+<section id="home" class="hero">
+
+    <div class="hero-content">
+
+        <p class="small-title">
+            ASPIRING AIRLINE PILOT · SOUTH AFRICA
+        </p>
+
+        <h1>
+            Matshunyane
+            <span>Someleze</span>
+        </h1>
+
+        <p class="intro">
+            Student · Aviation Enthusiast · Technology Learner
+        </p>
+
+        <p class="description">
+            I am building my path toward the aviation industry while
+            developing my skills in technology, programming and
+            personal growth.
+        </p>
+
+        <div class="buttons">
+
+            <a href="#journey" class="button primary">
+                Explore My Journey
+            </a>
+
+            <a href="#about" class="button secondary">
+                Discover My Story
+            </a>
+
+        </div>
+
+        <div class="hero-meta">
+
+            <div>
+                <strong>01</strong>
+                <span>AVIATION</span>
+            </div>
+
+            <div>
+                <strong>02</strong>
+                <span>TECHNOLOGY</span>
+            </div>
+
+            <div>
+                <strong>03</strong>
+                <span>AMBITION</span>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="hero-plane">
+        ✈
+    </div>
+
+</section>
+
+<section id="about" class="section">
+
+    <p class="section-number">
+        01 — ABOUT ME
+    </p>
+
+    <h2>
+        The person<br>
+        behind the ambition.
+    </h2>
+
+    <div class="about-grid">
+
+        <div>
+
+            <p class="section-text">
+                My name is <strong>Matshunyane Someleze</strong>.
+                I am a Grade 12 student in South Africa with a strong
+                interest in aviation, technology and continuous learning.
+            </p>
+
+            <p class="section-text">
+                Aviation has become one of my biggest ambitions.
+                I am actively learning about the industry, researching
+                pilot training pathways and preparing myself for the
+                journey ahead.
+            </p>
+
+            <p class="section-text">
+                Alongside aviation, I am developing my technology skills,
+                including programming, Android app development and
+                website development.
+            </p>
+
+        </div>
+
+        <div class="about-card">
+
+            <small>
+                WHO I AM
+            </small>
+
+            <h3>
+                Dream.<br>
+                Learn.<br>
+                Build.
+            </h3>
+
+            <p>
+                A student working toward an aviation career while
+                developing the knowledge and skills needed for the future.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section id="aviation" class="section aviation">
+
+    <div class="aviation-inner">
+
+        <p class="section-number">
+            02 — AVIATION
+        </p>
+
+        <h2>
+            More than<br>
+            just flying.
+        </h2>
+
+        <p class="section-text">
+            My interest in aviation comes from more than the idea of
+            sitting in a cockpit. I am fascinated by the discipline,
+            responsibility, technology and precision that make aviation
+            possible.
+        </p>
+
+        <p class="section-text">
+            My long-term ambition is to build the knowledge, experience
+            and qualifications required for a professional career as
+            an airline pilot.
+        </p>
+
+        <div class="aviation-principles">
+
+            <div class="aviation-principle">
+
+                <span>01</span>
+
+                <div>
+                    <h3>Discipline</h3>
+                    <p>
+                        Developing the consistency and responsibility
+                        required in aviation.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="aviation-principle">
+
+                <span>02</span>
+
+                <div>
+                    <h3>Precision</h3>
+                    <p>
+                        Learning to value accuracy, preparation and
+                        attention to detail.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="aviation-principle">
+
+                <span>03</span>
+
+                <div>
+                    <h3>Knowledge</h3>
+                    <p>
+                        Continuously learning about aircraft, flight
+                        training and the aviation industry.
+                    </p>
+                </div>
+
+            </div>
+
+
+            <div class="aviation-principle">
+
+                <span>04</span>
+
+                <div>
+                    <h3>Responsibility</h3>
+                    <p>
+                        Understanding the professionalism and
+                        responsibility associated with flying.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section id="journey" class="section journey-section">
+
+    <p class="section-number">
+        03 — MY ROADMAP
+    </p>
+
+    <h2>
+        The road<br>
+        to the cockpit.
+    </h2>
+
+    <p class="section-text">
+        Every aviation career begins somewhere. This is the path
+        I am working toward, one stage at a time.
+    </p>
+
+    <div class="roadmap">
+
+        <div class="road">
+
+            <div class="road-number">
+                01
+            </div>
+
+            <div class="road-content">
+
+                <small>
+                    CURRENT STAGE
+                </small>
+
+                <h3>
+                    Complete Grade 12
+                </h3>
+
+                <p>
+                    Complete my matric year and build a strong
+                    foundation for the next stage of my journey.
+                </p>
+
+                <span class="road-status">
+                    CURRENT
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <div class="road">
+
+            <div class="road-number">
+                02
+            </div>
+
+            <div class="road-content">
+
+                <small>
+                    NEXT CHAPTER
+                </small>
+
+                <h3>
+                    Begin Flight Training
+                </h3>
+
+                <p>
+                    Enter an appropriate flight-training pathway
+                    and begin developing practical aviation skills.
+                </p>
+
+                <span class="road-status">
+                    NEXT
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <div class="road">
+
+            <div class="road-number">
+                03
+            </div>
+
+            <div class="road-content">
+
+                <small>
+                    BUILD EXPERIENCE
+                </small>
+
+                <h3>
+                    Develop as a Pilot
+                </h3>
+
+                <p>
+                    Progress through the required aviation
+                    qualifications while building knowledge,
+                    experience and professionalism.
+                </p>
+
+                <span class="road-status">
+                    FUTURE
+                </span>
+
+            </div>
+
+        </div>
+
+
+        <div class="road">
+
+            <div class="road-number">
+                04
+            </div>
+
+            <div class="road-content">
+
+                <small>
+                    DESTINATION
+                </small>
+
+                <h3>
+                    Airline Pilot
+                </h3>
+
+                <p>
+                    Work toward a professional career in an
+                    airline cockpit and turn the ambition into
+                    reality.
+                </p>
+
+                <span class="road-status">
+                    DESTINATION
+                </span>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section id="projects" class="section projects">
+
+    <div class="projects-inner">
+
+        <p class="section-number">
+            04 — PROJECTS
+        </p>
+
+        <h2>
+            Things I'm<br>
+            building.
+        </h2>
+
+        <p class="section-text">
+            Aviation is my long-term direction, but technology is
+            another area where I enjoy learning, experimenting and
+            turning ideas into working projects.
+        </p>
+
+        <div class="cards">
+
+            <article class="card">
+
+                <div class="card-top">
+                    <span class="card-number">01</span>
+                    <span class="card-type">ANDROID</span>
+                </div>
+
+                <h3>
+                    QRix Toolkit
+                </h3>
+
+                <p>
+                    An Android application project built while
+                    learning app development and exploring how
+                    technology can solve practical problems.
+                </p>
+
+                <div class="card-footer">
+                    APP DEVELOPMENT
+                </div>
+
+            </article>
+
+
+            <article class="card">
+
+                <div class="card-top">
+                    <span class="card-number">02</span>
+                    <span class="card-type">PYTHON</span>
+                </div>
+
+                <h3>
+                    Python Learning
+                </h3>
+
+                <p>
+                    Building my programming foundations by learning
+                    Python, experimenting with code and developing
+                    problem-solving skills.
+                </p>
+
+                <div class="card-footer">
+                    PROGRAMMING
+                </div>
+
+            </article>
+
+
+            <article class="card">
+
+                <div class="card-top">
+                    <span class="card-number">03</span>
+                    <span class="card-type">WEB</span>
+                </div>
+
+                <h3>
+                    Personal Website
+                </h3>
+
+                <p>
+                    Designing and developing this personal website
+                    to document my journey, interests, projects
+                    and ambitions.
+                </p>
+
+                <div class="card-footer">
+                    WEB DEVELOPMENT
+                </div>
+
+            </article>
+
+
+            <article class="card">
+
+                <div class="card-top">
+                    <span class="card-number">04</span>
+                    <span class="card-type">AVIATION</span>
+                </div>
+
+                <h3>
+                    Aviation Research
+                </h3>
+
+                <p>
+                    Researching pilot training pathways, flight
+                    schools, aviation careers and opportunities
+                    within the aviation industry.
+                </p>
+
+                <div class="card-footer">
+                    AVIATION
+                </div>
+
+            </article>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<section id="goals" class="section goals">
+
+    <div class="goals-inner">
+
+        <p class="section-number">
+            05 — GOALS
+        </p>
+
+        <h2>
+            Eyes on<br>
+            the horizon.
+        </h2>
+
+        <p class="section-text">
+            I know where I want to go. The journey will take time,
+            preparation and persistence, but every stage brings me
+            closer to the cockpit.
+        </p>
+
+        <div class="goal-list">
+
+            <div class="goal">
+                <strong>01</strong>
+                <span>Complete Grade 12 and prepare for the next chapter.</span>
+            </div>
+
+            <div class="goal">
+                <strong>02</strong>
+                <span>Begin my flight-training journey.</span>
+            </div>
+
+            <div class="goal">
+                <strong>03</strong>
+                <span>Build aviation knowledge, experience and professionalism.</span>
+            </div>
+
+            <div class="goal">
+                <strong>04</strong>
+                <span>Continue developing my technology and programming skills.</span>
+            </div>
+
+            <div class="goal">
+                <strong>05</strong>
+                <span>Work toward a professional career as an airline pilot.</span>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<section id="contact" class="contact">
+
+    <div class="contact-inner">
+
+        <p class="section-number">
+            06 — CONTACT
+        </p>
+
+        <h2>
+            Let's connect.
+        </h2>
+
+        <p>
+            Interested in my journey, projects or aviation ambitions?
+            You can get in touch with me here.
+        </p>
+
+        <div class="contact-box">
+
+            <div>
+                <span>NAME</span>
+                <strong>Matshunyane Someleze</strong>
+            </div>
+
+            <div>
+                <span>LOCATION</span>
+                <strong>South Africa</strong>
+            </div>
+
+            <div>
+                <span>EMAIL</span>
+                <strong>
+                    YOUR-EMAIL@EXAMPLE.COM
+                </strong>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+<footer>
+
+    <div class="footer-logo">
+        MS
+    </div>
+
+    <h3>
+        Matshunyane Someleze
+    </h3>
+
+    <p>
+        Aspiring Airline Pilot
+    </p>
+
+    <small>
+        © 2026 Matshunyane Someleze
+    </small>
+
+</footer>
+<script>
+
+const sections = document.querySelectorAll(
+    ".section, .hero-content, .card, .road, .stat, .about-card"
+);
+
+const observer = new IntersectionObserver(
+    (entries) => {
+
+        entries.forEach((entry) => {
+
+            if (entry.isIntersecting) {
+
+                entry.target.classList.add("show");
+
+            }
+
+        });
+
+    },
+    {
+        threshold: 0.12
+    }
+);
+
+
+sections.forEach((section) => {
+
+    section.classList.add("hidden");
+
+    observer.observe(section);
+
+});
+
+
+/* Highlight navigation while scrolling */
+
+const navLinks = document.querySelectorAll("nav a");
+
+const pageSections = document.querySelectorAll(
+    "#about, #aviation, #journey, #projects, #goals"
+);
+
+window.addEventListener("scroll", () => {
+
+    let current = "";
+
+    pageSections.forEach((section) => {
+
+        const sectionTop = section.offsetTop - 120;
+
+        if (window.scrollY >= sectionTop) {
+
+            current = section.getAttribute("id");
+
+        }
+
+    });
+
+
+    navLinks.forEach((link) => {
+
+        link.style.color = "";
+
+        if (link.getAttribute("href") === "#" + current) {
+
+            link.style.color = "#79b9ff";
+
+        }
+
+    });
+
+});
+
+</script>
+
+</body>
+</html>
